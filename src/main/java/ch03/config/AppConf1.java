@@ -1,0 +1,22 @@
+package ch03.config;
+
+import ch03.spring.MemberDao;
+import ch03.spring.MemberPrinter;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+import org.springframework.stereotype.Component;
+
+@Configuration
+public class AppConf1 {
+
+    @Bean
+    public MemberDao memberDao() {
+        return new MemberDao();
+    }
+
+    @Bean
+    public MemberPrinter memberPrinter() {
+        return new MemberPrinter();
+    }
+}
