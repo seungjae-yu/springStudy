@@ -26,6 +26,14 @@ ch04/spring/VersionPrinter.java
  ch04.spring.VersionPrinter
 ch04/spring/ChangePasswordService.java
  ch04.spring.ChangePasswordService
+ch03/spring/MemberDao.java
+ ch03.spring.MemberDao
+ch07_aop/ImplCalculator.java
+ ch07_aop.ImplCalculator
+ch04/main/MainForSpring.java
+ ch04.main.MainForSpring
+ch03/spring/MemberListPrinter.java
+ ch03.spring.MemberListPrinter
 ch03/spring/MemberNotFoundException.java
  ch03.spring.MemberNotFoundException
 ch03/spring/RegisterRequest.java
@@ -34,6 +42,8 @@ ch04/spring/RegisterRequest.java
  ch04.spring.RegisterRequest
 ch04/spring/MemberRegisterService.java
  ch04.spring.MemberRegisterService
+ch07_aop/Calculator.java
+ ch07_aop.Calculator
 ch03/config/AppConf2.java
  ch03.config.AppConf2
 ch03/spring/MemberInfoPrinter.java
@@ -42,19 +52,21 @@ ch03/spring/MemberPrinter.java
  ch03.spring.MemberPrinter
 ch04/spring/WrongIdPasswordException.java
  ch04.spring.WrongIdPasswordException
+ch03/config/AppConf1.java
+ ch03.config.AppConf1
 ch03/spring/MemberRegisterService.java
  ch03.spring.MemberRegisterService
+ch07_aop/RecCalculator.java
+ ch07_aop.RecCalculator
 ch03/config/AppCtx.java
  ch03.config.AppCtx
 ch04/config/AppCtx.java
  ch04.config.AppCtx
 ch04/spring/MemberPrinter.java
  ch04.spring.MemberPrinter
-ch03/spring/MemberListPrinter.java
- ch03.spring.MemberListPrinter
-ch03/spring/MemberDao.java
- ch03.spring.MemberDao
-ch03/config/AppConf1.java
- ch03.config.AppConf1
-ch04/main/MainForSpring.java
- ch04.main.MainForSpring
+ch07_aop/MainAspect.java
+ ch07_aop.MainAspect
+ch07_aop/config/AppCtx.java
+ ch07_aop.config.AppCtx
+ch07_aop/aspect/ExecTimeAspect.java
+ ch07_aop.aspect.ExecTimeAspect
